@@ -36,17 +36,22 @@
 //     console.log("khong la nam nhuan");
     
 // }
+
 let x=parseInt(prompt("nhap 1 thang:"));
-if(x==1 ||x==3|| x==5||x==7 ||x==8 ||x==10||x==12)
-{
+if(x===1 ||x===3|| x===5||x===7 ||x===8 ||x===10||x===12){
     console.log(`thang ${x} co 31 ngay`);
     
 }
-else if(x==4 ||x==6||x==9||x==11)
+    else if(x===4 ||x===6||x===9||x===11)
 {
     console.log(`thang ${x} co 30 ngay`);
 }
-else{
+    else if(x===2)
+{
     console.log(`thang ${x} co 28 hoac 29 ngay`);
+    
+}
+    else {
+    console.log(`nhap sai`);
     
 }

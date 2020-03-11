@@ -27,11 +27,29 @@
 // alert(yourName);
 // alert(yourAge);
 
-let x=parseInt(prompt("nhap 1 so:"));
-let y=prompt("nhap 1 so:");
-alert("cong:"+ x+y);
-alert("tru:" + x-y);
-alert("chia:" + x/y);
-alert("nhan:" + x*y);
+// let x=parseInt(prompt("nhap 1 so:"));
+// let y=prompt("nhap 1 so:");
+// alert("cong:"+ x+y);
+// alert("tru:" + x-y);
+// alert("chia:" + x/y);
+// alert("nhan:" + x*y);
 
+//cac cach khai bao
+
+const PI=3.14;
+
+var name; 
+let a = 5;
+//khac nhau giua var và let
+
+var b1 = 1;
+// var khai bao bien toan cuc , co kha nang su dung nhieu noi
+
+if(true){
+    let b2 =10;
+
+    console.log(b2);
+    
+}
+console.log(b2);  //do let chi su dung trong scope
 
