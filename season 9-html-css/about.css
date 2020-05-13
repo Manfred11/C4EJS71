@@ -1,0 +1,15 @@
+.go-home{
+    padding: 20px 30px  ;
+    margin: auto;
+    border: 1px solid green;
+    background-color:rgb(rgb(0, 255, 42), green, blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 255, 42);
+    font-weight: bold;
+}
+.go-home:hover{
+    color: #fff;
+    background-color: rgb(0,0,0);
+
+}
